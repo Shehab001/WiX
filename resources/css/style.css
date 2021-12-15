@@ -1,0 +1,642 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing:border-box;
+
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+body{
+	font-family: 'Titilium web',sans-serif;
+}
+ul li{
+ list-style-type: none;
+}
+
+a:link{
+  text-decoration: none;
+}
+h3{
+	font-size: 2rem;
+}
+h4{
+	font-size: 1.5rem;
+}
+h5{
+	font-size: 1.3rem;
+}
+
+
+                  /*FIRST PART*/
+
+
+
+header{
+background:linear-gradient(rgb(13.3, 40, 40),
+	rgb(28,5,36,1)),
+	url(../img/ff.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:78vh;
+	color:#fff;
+	position: relative;
+	font-size: 1.6rem ;
+}
+.row{
+	max-width: 105rem;
+	margin:0 auto;
+}
+.logo{
+	margin-top:3rem;
+	width:auto;
+	height:4rem;
+}
+
+.main{
+	float: right;
+	display: inline-block;
+}
+.main li{
+	display: inline-block;
+	margin-top:3.5rem;
+	
+}
+.main li a:link,
+.main li a:visited {
+	color:#fff;
+	text-transform: uppercase;
+	/*text-decoration: none;*/
+	padding: .8rem 1.5rem;
+	background-color:rgb(100, 58, 121,0);
+	border-radius:.3rem;
+	transition: .5s;
+}
+
+.main li:hover a:link,
+.main li:hover a:visited{
+	background-color:rgb(0, 0, 0);
+}
+/*.border{
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}*/
+.first{
+	padding: .8rem 1.5rem;
+		border-radius:.3rem;
+}
+
+.ro{
+	width:53rem;
+	position: absolute;
+	top:63%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	text-align: center;
+}
+
+a.btn{
+	color:#fff;
+	border-bottom:.3rem solid #c86a40;
+}
+.btn:link,
+.btn:visited
+.btn{
+	display: inline-block;
+    text-transform: uppercase;
+	/*text-decoration: none;*/
+	padding: 1.5rem 1rem;
+	background:#eb7d4b;
+	margin-top:6.5rem;
+	border-radius: .5rem;
+}
+/*.btn:hover{
+	transition: .5s;
+   background:black;
+}*/
+
+
+
+
+                  /*SECOND PART*/
+
+
+
+
+.sec{
+	display: inline-block;
+	height:110vh;
+	width:100%;
+	text-align: center;
+	color:#fff;
+	background-color: #11816d;
+}
+
+.fir{
+	margin-top: 7rem;
+	margin-bottom: 1rem;
+    font-size: 3rem;
+    border-bottom:.5rem;  
+}
+.line{
+	height:.4rem;
+	margin:0 46%;
+	background-color:#14a58c;
+}
+
+.las{
+	padding-top: 1.5rem;
+	width:60%;
+	margin-left: 20%;
+	font-size: 2rem;
+}
+
+.box{
+	margin-top: 8.5rem;
+}
+.sec img{
+	height: 13rem;
+	width:12rem;
+}
+.sec h3{
+	color:#fff;
+	margin-top: 3.5rem;
+}
+.sec
+.box p{
+	font-size: 1.8rem;
+	margin:7% 10%;
+}
+
+
+
+
+                  /*THIRD PART*/
+
+
+
+
+.intro{
+	text-align: center;
+	height:135vh;
+	width:100%;
+	background: #e7f1f8;
+	display: inline-block;
+}
+.line2{
+	height:.4rem;
+	margin:0% 46%;
+	background-color:#c8d9e5;
+}
+.intro h3{
+	padding: 1.5rem;
+}
+.intro
+.box h4{
+	margin-bottom: 1rem;
+	color:#30bae7;
+}
+.intro
+.box p{
+    font-size:1.5rem;
+    margin:0% 1%;
+}
+.intro img{
+border-radius: 10rem;
+}
+.ftlm{
+	margin-top: 1.8rem;	
+}
+.ftlm ul li{
+	display: inline-block;
+	margin: 0 .5rem;
+}
+.ftlm ul li i{
+	color: #fff;
+}
+.ftlm ul li a:link i::before{
+	background-color: #bdd1df;
+	width:2rem;
+	height:2rem;
+	padding: 1rem;
+	display: inline-block;
+	font-size: 2rem;
+	border-radius: 50%;
+	transition: 0.9s;
+}
+
+.ftlm ul li a:hover i::before {
+	background: black;
+	transform: rotate(360deg);
+}
+
+
+
+
+              /*FOURTH PART*/
+
+
+
+
+
+.skill{
+	height:105vh;
+	width:auto;
+	background-color: #ffffff;
+	text-align: center;
+}
+.line3{
+	height:.4rem;
+	margin:0 46%;
+	background-color:#dfe8ed;
+}
+
+
+
+               /*JQ*/
+
+
+svg.radial-progress circle{
+stroke-width:5;
+}
+svg.radial-progress text{
+fill:black;
+
+}
+svg.web circle{
+stroke:#30bae7;
+}
+svg.html circle{
+stroke:#30bae7;
+}
+svg.grphc circle{
+stroke:#15c7a8;
+}
+svg.ui circle{
+stroke:#eb7d4b;
+}
+
+.skill h4{
+	color:black;
+}
+
+
+
+
+                   /*FIFTH PART*/
+
+
+
+
+
+.portfolio{
+	text-align: center;
+	height: 205vh;
+	width:100%;
+	background-color: #ffdd99;
+	display: inline-block;
+	
+}
+.portfolio a{
+	color:#393939;
+}
+.line4{
+	height:.4rem;
+	margin:0 46%;
+	background-color:#e5c37f;
+}
+
+.portfolio
+.row
+.boxx{ 
+	
+	margin:4% 0 4% 0;
+}
+
+.portfolio
+.row
+.boxx button {
+	font-size: 1.6rem;
+	background-color:  #ebc985;
+	padding:.8rem;
+	border-radius: .5rem;
+	border:0;
+	margin-left: 1%;
+    transition: .5s;
+    text-transform: uppercase;
+    outline:none;
+
+}
+.portfolio
+.box1 {
+	overflow: hidden;
+}
+.portfolio
+.row
+.boxx button:hover {
+	cursor:pointer;
+	background-color: #fff;
+	box-shadow: inset 0 .2rem 0 rgb(229, 195, 127,0.9);
+}
+ /*                           not working
+.portfolio
+.mixitup-control-active {
+	background: #fff;
+} */
+.portfolio
+.row h4 {
+	margin:4% auto;
+}
+.portfolio img{
+  max-width: 90%;
+  height: auto;
+margin-left: 0%;
+}
+
+
+
+.portfolio
+.box3 a:link,
+.portfolio
+.box3 a:visited{
+	height:6.5rem;
+	width:29.5rem;
+	font-size: 1.8rem;
+	padding: 2.2rem;
+	display: inline-block;
+	background-color: #17c2a4;
+	border-radius: .5rem;
+	border-bottom: .3rem solid #14a58c;
+	margin:1% 0 0 0;
+	color: #fff;
+    
+}
+
+
+
+
+                 /*SIXTH PART*/
+
+
+
+.us {
+	height:115vh;
+	width:100%;
+	background-color:#d74680;
+	color: #fff;
+}
+
+.us 
+.box i{
+	font-size: 1.3rem;
+	margin:0% 0%;
+	padding-top:1rem;
+}
+.us
+.fir{
+	text-align: center;
+}
+.us
+.las{
+	text-align: center;
+}
+.line5{
+	height:.4rem;
+	margin:0 46%;
+	background-color:#b73c6d;
+}
+/*.us
+.pic {
+	height: auto;
+	width:12rem;
+	display: inline-block;
+	}*/
+.us img {
+	float: left;
+	margin-left: 12%;
+	height: 12rem;
+	width:12rem;
+	border-radius: 50%;
+}
+.us
+.text{
+     margin:2% 0% 0% 50%;
+	
+	line-height: 2rem;
+}
+/*.us
+.text{
+	width:29.5rem;
+	height:12.2rem;
+	display: inline-block;
+	margin-left: 3rem;
+}
+*/
+.us h4{
+	margin-top:5%;
+}
+.us h5{
+	margin-top:1%;
+}
+.us a{
+	color:#ffdd99;
+}
+
+
+
+
+               /*LAST PART*/
+
+
+
+
+.git{
+	height: 117vh;
+	width:100%;
+	text-align: center;
+	color: #fff;
+	background-color: #3c5499;
+}
+.line6{
+	height:.4rem;
+	margin:0 46%;
+	background-color:#273a71;
+}
+.git
+.boxx{
+	display: inline-block;
+	margin-top:5rem;
+	width:60%;
+}
+.git form {
+	width:100%;
+	height:35rem;
+	float: left;
+}
+.git
+.boxx
+.name input{
+	height:3.5rem;
+	width:94%;
+	font-size:1.4rem;
+	background-color: #273a71;
+	color:#fff;
+	display: inline-block;
+	resize: none;
+	border: none;
+	padding-left: 10px;
+}
+.git
+.boxx
+.email input{
+	height:3.5rem;
+	width: 100%;
+	font-size:1.4rem;
+	background-color: #273a71;
+	color:#fff;
+	resize: none;
+	border: none;
+	display: inline-block;
+	padding-left: 10px;
+	
+}
+
+
+.git input{
+	padding:.8rem;
+}
+
+.git textarea{
+	padding:.8rem;
+}
+
+.git
+.box1 textarea{
+	height:20rem;
+	width: 97%;
+	font-size:1.4rem;
+	background-color: #273a71;	
+	color:#fff;
+	resize: none;
+	border: none;
+	margin-top: .5rem;
+}
+
+
+
+.git
+.box2{
+	margin-top:5rem;
+}
+
+.git
+.box2 input {
+	font-size:1.4rem;
+	background-color:#17c2a4;
+	border:0;
+	border-bottom:.3rem solid #14a58c;
+	color:#fff;
+	padding:1rem;
+	border-radius:.5rem;
+	cursor: pointer;
+}
+
+.git
+.box3{
+	height: auto;
+	width:100%;
+	margin-top:5rem;
+	background-color: #344b8e;
+	border-top: .5rem solid #3c5499;
+	
+}
+.git
+.box3 ul{
+	width:100%;
+
+}
+.git
+.box3 ul li{
+    display: inline-block;
+	
+	padding:25px;
+	
+}
+
+.git
+.box3 a{
+
+	font-size: 1.5rem;
+	color:#fff;
+}
+.git
+.box3 a:hover{
+	color:#30bae7;
+}
+
+.sticky{
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	background-color: rgb(24.3, 49.4, 70.2);
+	z-index:9999;
+}
+.sticky .logo{
+	margin:1%;
+	padding:0 0 0 0;
+}
+
+.sticky .main li{
+	margin-top:3%;
+	padding:0;
+}
+
+.mbl {
+	float: right;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
+}
+.mbl span {
+	margin-top:65%;
+	height:3rem;
+	font-size: 4rem;
+	cursor: pointer;
+	transition: 0.5s;
+	display: none;
+
+}
+.mbl
+.overlay {
+	width:0;
+	height: 100%;
+	position: fixed;
+	top:0;
+	left:0;
+	background-color: rgba(0,0,0,0.9);
+	transition: 0.5s;
+	z-index: 1;
+	overflow-x: hidden;
+}
+.sticky span {
+	margin-top: -5%;
+}
+.bttn{
+	float: right;
+	font-size: 5rem;
+	color: #fff;
+}
+.overlaycntnt {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	top:5%;
+
+	
+}
+.overlaycntnt a {
+	color:#fff;
+	display: block;
+	padding: 3rem;
+}
